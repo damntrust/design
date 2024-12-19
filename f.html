@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Page</title>
+    <link rel="stylesheet" href="FILTER.css">
+</head>
+<body>
+    <div class="filter-container">
+        <div class="filter-header">
+            <h1>Filter</h1>
+            <span class="close-btn">&times;</span>
+        </div>
+        <div class="filter-body"> 
+            <div class="search-section">
+                <label for="search-jobs">SEARCH BY KEYWORD</label>
+                <div class="search-box">
+                    <input type="text" id="search-jobs" placeholder="Search jobs">
+                </div>
+            </div>
+            <div class="view-section">
+                <label>VIEW</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="view" value="all"> All job posts</label>
+                    <label><input type="radio" name="view" value="active"> Active job posts</label>
+                    <label><input type="radio" name="view" value="archived" checked> Archived job posts</label>
+                </div>
+            </div>
+            <div class="include-section">
+                <label>INCLUDE</label>
+                <div class="checkbox-group">
+                    <label>
+                        <input type="checkbox" checked> Jobs shared with me
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="filter-footer">
+            <button class="save-btn">Save changes</button>
+        </div>
+    </div>
+</body>
+</html>

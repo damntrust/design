@@ -1,0 +1,31 @@
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration: wavy,underline;
+}
+h2{
+    color: crimson;
+}
+p{
+    color: rgb(21, 207, 15);
+
+}
+body{
+    background-color: bisque;
+}
+#divi{
+    background-color: rgb(236, 147, 13);
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+    
+}
+button{
+    background-color:blue;
+    color: aliceblue;
+   
+}
+#new{
+    color: aquamarine;
+    font-weight: bolder;
+}
